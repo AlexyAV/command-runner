@@ -17,8 +17,5 @@ install:
   - composer self-update && composer --version
   - composer install --dev --prefer-dist
 
-script:
-  - vendor/bin/phpunit --verbose --coverage-clover=coverage.clover
-
 after_script:
   - vendor/bin/phpunit --coverage-clover build/logs/clover.xml
