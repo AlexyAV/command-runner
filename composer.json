@@ -1,0 +1,24 @@
+{
+    "name": "command-runner/command-runner",
+    "description": "Execute console command and process result.",
+    "type": "library",
+    "keywords": ["console", "php", "terminal", "command"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AlexyAV",
+            "email": "avpretty@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "mikey179/vfsStream": "~1"
+    },
+    "autoload": {
+        "psr-4": {
+            "av\\commandRunner\\": "src/"
+        }
+    }
+}
