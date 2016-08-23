@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/AlexyAV/command-runner.svg?branch=master)](https://travis-ci.org/AlexyAV/command-runner)
 # Command runner
 Execute console command and process result.
 
