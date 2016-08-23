@@ -18,8 +18,5 @@ install:
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
   - travis_retry composer install --prefer-dist --no-interaction --dev
 
-before_script:
-  - PHPUNIT_FLAGS="--coverage-clover=coverage.clover"
-
 script:
-  - phpunit
+  - phpunit --coverage-clover coverage.clover --configuration ./phpunit.xml.dist ./tests
