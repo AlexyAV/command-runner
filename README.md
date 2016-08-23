@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/AlexyAV/command-runner.svg?branch=master)](https://travis-ci.org/AlexyAV/command-runner)
+[![Test Coverage](https://codeclimate.com/github/AlexyAV/command-runner/badges/coverage.svg)](https://codeclimate.com/github/AlexyAV/command-runner/coverage)
 # Command runner
 Execute console command and process result.
 
