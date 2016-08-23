@@ -24,3 +24,6 @@ install:
 
 script:
   - phpunit --coverage-clover build/logs/clover.xml --configuration ./phpunit.xml.dist ./tests
+
+after_script:
+  - vendor/bin/test-reporter
