@@ -5,6 +5,13 @@ Execute console command and process result.
 This library allows you to launch an external application via the console and process the results.
 Also can be use to safely run daemons.
 
+##Installation
+
+Add to your composer.json 
+```
+"command-runner/command-runner": "dev-master"
+```
+
 Example of single command:
 
 ```php
