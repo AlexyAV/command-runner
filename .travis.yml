@@ -1,9 +1,9 @@
 language: php
 
 php:
-  - 5.4
   - 5.5
   - 5.6
+  - 7.0
 
 # faster builds on new travis setup not using sudo
 sudo: false
@@ -23,4 +23,4 @@ install:
   - travis_retry composer install --prefer-dist --no-interaction --dev
 
 script:
-  - phpunit --coverage-clover coverage.clover --configuration ./phpunit.xml.dist ./tests
+  - phpunit --coverage-clover build/logs/clover.xml --configuration ./phpunit.xml.dist ./tests
